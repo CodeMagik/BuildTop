@@ -1,0 +1,28 @@
+div.navbar.navbar-inverse.navbar-fixed-top
+	div.container
+		div.navbar-header
+			button.navbar-toggle(data-toggle='collapse' data-target='.navbar-collapse')
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#')
+			| BuildTop
+		div.navbar-collapse.collapse
+			ul.nav.navbar-nav
+				li.active
+					a(href='#') Questions
+				li
+					a(href='#') Tags
+				li
+					a(href='#') Blog
+				li
+					a(href='#') Contact
+			form.navbar-form.navbar-right
+				div.form-group
+					input.form-control(type='text' placeholder='search')
+				div.form-group
+					button.btn.btn-success(type='submit') Go!
+link(rel='stylesheet', href='/css/bootstrap.css')
+link(rel='stylesheet', href='/css/jumbotron.css')
+script(src='/scripts/bootstrap.js')
+script(src='/scripts/bootstrap.min.js')
