@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('login', { title: 'BuildTop' });
+  res.render('btquestions', { title: 'BuildTop' });
 };
